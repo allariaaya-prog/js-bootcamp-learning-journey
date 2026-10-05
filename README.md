@@ -24,7 +24,7 @@ This repository documents my progress from JavaScript fundamentals and DOM manip
 | 01 | [Calculator]                                  | DOM, Events, Functions              |
 | 02 | [Color App]                                   | DOM, Events, Local Storage          |
 | 03 | [Password Generator]                          | Functions, Randomization, DOM       |
-| 04 | [To-Do List]                                  | DOM, Events, State Management       |
+| 04 | [To-Do List]                                  | DOM, Events                         |
 | 05 | [Notes App]                                   | DOM, Local Storage                  |
 | 06 | [Control Notes App]                           | DOM, Local Storage, CRUD Operations |
 | 07 | [QR Generator]                                | API, DOM, User Input                |
