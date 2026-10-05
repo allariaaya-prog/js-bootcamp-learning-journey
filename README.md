@@ -26,7 +26,7 @@ This repository documents my progress from JavaScript fundamentals and DOM manip
 | 03 | [Password Generator]                          | Functions, Randomization, DOM       |
 | 04 | [To-Do List]                                  | DOM, Events                         |
 | 05 | [Notes App]                                   | DOM, Local Storage                  |
-| 06 | [Control Notes App]                           | DOM, Local Storage, CRUD Operations |
+| 06 | [Control Notes App]                           | DOM, Local Storage                  |
 | 07 | [QR Generator]                                | API, DOM, User Input                |
 | 08 | [Quiz App]                                    | JSON, AJAX, DOM, Timer              |
 
