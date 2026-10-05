@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background and layout */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #454545;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 400px;
+    text-align: center;
+}
+
+/* White card */
+.container .box {
+    background-color: #fff;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.container .box h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+
+.container .box input {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #3d60ed;
+}
+
+.container .box button {
+    display: flex;
+    align-items: center;
+    background: #3d60ed;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    padding: 15px 30px;
+    margin: 30px 100px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+/* QR box: hidden by default (max-height 0) */
+#imgBox {
+    padding-top: 20px;
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#imgBox img {
+    width: 100%;
+    padding: 10px;
+}
+
+#imgBox.show {
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+}

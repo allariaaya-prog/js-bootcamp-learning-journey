@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Why is JavaScript so popular?",
+    "answer_1": "It is easy to learn and use",
+    "answer_2": "It is versatile and can be used for both front-end and back-end development",
+    "answer_3": "It has a large community and a wealth of resources available",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "Hyper Text Markup Language",
+    "answer_2": "High Tech Modern Language",
+    "answer_3": "Hyper Transfer Markup Logic",
+    "answer_4": "Home Tool Markup Language",
+    "right_answer": "Hyper Text Markup Language"
+  },
+  {
+    "title": "Which tag is used to create a hyperlink in HTML?",
+    "answer_1": "<link>",
+    "answer_2": "<a>",
+    "answer_3": "<href>",
+    "answer_4": "<url>",
+    "right_answer": "<a>"
+  },
+  {
+    "title": "Which CSS property changes the text color?",
+    "answer_1": "font-color",
+    "answer_2": "text-style",
+    "answer_3": "color",
+    "answer_4": "background-color",
+    "right_answer": "color"
+  },
+  {
+    "title": "Which symbol is used to select a class in CSS?",
+    "answer_1": "#",
+    "answer_2": ".",
+    "answer_3": "*",
+    "answer_4": "&",
+    "right_answer": "."
+  },
+  {
+    "title": "Which keyword declares a variable that can be reassigned in JavaScript?",
+    "answer_1": "const",
+    "answer_2": "let",
+    "answer_3": "static",
+    "answer_4": "final",
+    "right_answer": "let"
+  },
+  {
+    "title": "Which HTML tag is used for the largest heading?",
+    "answer_1": "<h6>",
+    "answer_2": "<head>",
+    "answer_3": "<h1>",
+    "answer_4": "<heading>",
+    "right_answer": "<h1>"
+  },
+  {
+    "title": "Which CSS value makes an element a flex container?",
+    "answer_1": "display: flex",
+    "answer_2": "position: flex",
+    "answer_3": "float: flex",
+    "answer_4": "flex: container",
+    "right_answer": "display: flex"
+  },
+  {
+    "title": "What does JSON.parse() do?",
+    "answer_1": "Converts a JavaScript object into a JSON string",
+    "answer_2": "Converts a JSON string into a JavaScript object",
+    "answer_3": "Sends a request to the server",
+    "answer_4": "Deletes a JSON file",
+    "right_answer": "Converts a JSON string into a JavaScript object"
+  },
+  {
+    "title": "Which attribute makes an image accessible to screen readers?",
+    "answer_1": "title",
+    "answer_2": "src",
+    "answer_3": "alt",
+    "answer_4": "name",
+    "right_answer": "alt"
+  }
+]

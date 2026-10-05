@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color app</title>
+    <style>
+        ul {
+            display: flex;
+            gap: 30px;
+            margin-top: 100px;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        li {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            list-style: none;
+            justify-content: center;
+            text-align: center;
+        }
+
+        [data-color="red"] {
+            background: red;
+        }
+
+        [data-color="green"] {
+            background: green;
+        }
+
+        [data-color="blue"] {
+            background: blue;
+        }
+
+        [data-color="black"] {
+            background: black;
+        }
+
+        .active {
+            outline: 3px solid white;
+        }
+
+        .experiment {
+            width: 300px;
+            height: 200px;
+            margin-top: 50px;
+            margin-left: 700px;
+             justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="active" data-color = "red"></li>
+        <li data-color = "green"></li>
+        <li data-color = "blue"></li>
+        <li data-color = "black"></li>
+    </ul>
+
+    <div class="experiment"></div>
+    <script>
+        let lis =document.querySelectorAll("ul li");
+        let exp = document.querySelector(".experiment");
+
+        if(window.localStorage.getItem("color")){
+
+            //if there is a color in local storage:
+            // 1- you need to change the background color to the color you have 
+            exp.style.backgroundColor = window.localStorage.getItem("color");
+
+            // 2- remove active class from all lis
+                lis.forEach((li) =>{
+                    li.classList.remove("active");
+                });
+
+            // 3- add active class to current color
+            document.querySelector(`[data-color = "${window.localStorage.getItem("color")}"]`).classList.add("active");
+        }
+
+
+        lis.forEach((li) => {
+            li.addEventListener("click", (e) => {
+                console.log(e.currentTarget.dataset.color);
+
+                //remove active class from all lis
+                lis.forEach((li) =>{
+                    li.classList.remove("active");
+                });
+
+                //add active class to current element
+                e.currentTarget.classList.add("active");
+
+                //add current color to local storage
+                window.localStorage.setItem("color" ,e.currentTarget.dataset.color );
+
+                //change div background color
+                exp.style.backgroundColor = e.currentTarget.dataset.color;
+            });
+        });
+    </script>
+</body>
+</html>
